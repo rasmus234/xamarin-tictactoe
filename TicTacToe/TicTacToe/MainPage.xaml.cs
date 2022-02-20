@@ -83,8 +83,8 @@ namespace TicTacToe
             });
             CurrentSymbol = new Random().Next(0, 2) == 0 ? "X" : "O";
             count = 0;
-            
         }
+
         public void DisplayWin(string symbol)
         {
             DisplayAlert("Winner", $"{symbol} wins!", "OK");
@@ -96,35 +96,40 @@ namespace TicTacToe
             // Check for horizontal wins
             for (var i = 0; i < 3; i++)
             {
-                if (board[i, 0].Text == board[i, 1].Text && board[i, 1].Text == board[i, 2].Text && board[i, 0].Text.Length > 0)
+                if (board[i, 0].Text == board[i, 1].Text && board[i, 1].Text == board[i, 2].Text &&
+                    board[i, 0].Text.Length > 0)
                 {
                     DisplayWin(board[i, 0].Text);
                 }
-
             }
+
             // Check for vertical wins
             for (var i = 0; i < 3; i++)
             {
-                if (board[0, i].Text == board[1, i].Text && board[1, i].Text == board[2, i].Text && board[0, i].Text.Length > 0)
+                if (board[0, i].Text == board[1, i].Text && board[1, i].Text == board[2, i].Text &&
+                    board[0, i].Text.Length > 0)
                 {
-                    DisplayWin(board[i, 0].Text);
+                    DisplayWin(board[0, i].Text);
                 }
             }
+
             // Check for diagonal wins
-            if (board[0, 0].Text == board[1, 1].Text && board[1, 1].Text == board[2, 2].Text && board[0, 0].Text.Length > 0)
+            if (board[0, 0].Text == board[1, 1].Text && board[1, 1].Text == board[2, 2].Text &&
+                board[0, 0].Text.Length > 0)
             {
                 DisplayWin(board[0, 0].Text);
             }
-            if (board[0, 2].Text == board[1, 1].Text && board[1, 1].Text == board[2, 0].Text && board[0, 2].Text.Length > 0)
+
+            if (board[0, 2].Text == board[1, 1].Text && board[1, 1].Text == board[2, 0].Text &&
+                board[0, 2].Text.Length > 0)
             {
                 DisplayWin(board[0, 2].Text);
             }
-            
+
             if (count == 9)
             {
                 DisplayWin("Tie");
             }
-            
         }
     }
 }
