@@ -1,0 +1,13 @@
+C:\Users\rasmu\RiderProjects\TicTacToe\TicTacToe\TicTacToe\bin\Debug\netstandard2.0\TicTacToe.deps.json
+C:\Users\rasmu\RiderProjects\TicTacToe\TicTacToe\TicTacToe\bin\Debug\netstandard2.0\TicTacToe.dll
+C:\Users\rasmu\RiderProjects\TicTacToe\TicTacToe\TicTacToe\bin\Debug\netstandard2.0\TicTacToe.pdb
+C:\Users\rasmu\RiderProjects\TicTacToe\TicTacToe\TicTacToe\obj\Debug\netstandard2.0\TicTacToe.csproj.AssemblyReference.cache
+C:\Users\rasmu\RiderProjects\TicTacToe\TicTacToe\TicTacToe\obj\Debug\netstandard2.0\TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rasmu\RiderProjects\TicTacToe\TicTacToe\TicTacToe\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\rasmu\RiderProjects\TicTacToe\TicTacToe\TicTacToe\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\rasmu\RiderProjects\TicTacToe\TicTacToe\TicTacToe\obj\Debug\netstandard2.0\TicTacToe.AssemblyInfoInputs.cache
+C:\Users\rasmu\RiderProjects\TicTacToe\TicTacToe\TicTacToe\obj\Debug\netstandard2.0\TicTacToe.AssemblyInfo.cs
+C:\Users\rasmu\RiderProjects\TicTacToe\TicTacToe\TicTacToe\obj\Debug\netstandard2.0\TicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\rasmu\RiderProjects\TicTacToe\TicTacToe\TicTacToe\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\rasmu\RiderProjects\TicTacToe\TicTacToe\TicTacToe\obj\Debug\netstandard2.0\TicTacToe.dll
+C:\Users\rasmu\RiderProjects\TicTacToe\TicTacToe\TicTacToe\obj\Debug\netstandard2.0\TicTacToe.pdb

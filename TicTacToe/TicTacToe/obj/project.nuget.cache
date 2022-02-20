@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "w3nV6yYTsoa7nLopqxzpMmWOVq0yW0V4nKeLUfvGoQasmXiG9f5r7n2PI2WIpglEP47ugbbRYEMVIKHrYW1AFg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rasmu\\RiderProjects\\TicTacToe\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rasmu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\rasmu\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\rasmu\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

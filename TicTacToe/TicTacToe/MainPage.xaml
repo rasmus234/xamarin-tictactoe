@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TicTacToe"
+             x:Class="TicTacToe.MainPage">
+
+    <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"> 
+        <Button Clicked="ResetGameButton_OnClicked" Text="Reset Game"></Button>
+       
+        <Grid x:Name="GameGrid" BackgroundColor="Black" HeightRequest="1000">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <BoxView Grid.ColumnSpan="3"></BoxView>
+            <Label x:Name="PlayerTurnLabel" Grid.ColumnSpan="3"
+
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   Text="{Binding Path=CurrentSymbol }">
+
+            </Label>
+            <BoxView Grid.Row="1" Grid.Column="0" />
+            <Button x:Name="Btn1" Grid.Row="1" Grid.Column="0" />
+            <BoxView Grid.Row="1" Grid.Column="1" />
+            <Button x:Name="Btn2" Grid.Row="1" Grid.Column="1" />
+            <BoxView Grid.Row="1" Grid.Column="2" />
+            <Button x:Name="Btn3" Grid.Row="1" Grid.Column="2" />
+            <BoxView Grid.Row="2" Grid.Column="0" />
+            <Button x:Name="Btn4" Grid.Row="2" Grid.Column="0" />
+            <BoxView Grid.Row="2" Grid.Column="1" />
+            <Button x:Name="Btn5" Grid.Row="2" Grid.Column="1" />
+            <BoxView Grid.Row="2" Grid.Column="2" />
+            <Button x:Name="Btn6" Grid.Row="2" Grid.Column="2" />
+            <BoxView Grid.Row="3" Grid.Column="0" />
+            <Button x:Name="Btn7" Grid.Row="3" Grid.Column="0" />
+            <BoxView Grid.Row="3" Grid.Column="1" />
+            <Button x:Name="Btn8" Grid.Row="3" Grid.Column="1" />
+            <BoxView Grid.Row="3" Grid.Column="2" />
+            <Button x:Name="Btn9" Grid.Row="3" Grid.Column="2" />
+        </Grid>
+    </StackLayout>
+</ContentPage>
